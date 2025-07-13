@@ -44,7 +44,7 @@ style={{ backgroundColor: "rgba(2, 2, 2, 0.43)" }}
 
       >
       <div
-  className="px-6 flex flex-col items-center gap-6 overflow-auto h-150
+  className="px-6 flex flex-col items-center gap-6 overflow-auto h-130
              lg:flex-row lg:justify-center lg:gap-20 lg:h-auto"
 >
   {navLinks.map(({ label, href, icon }) => (
@@ -60,7 +60,7 @@ style={{ backgroundColor: "rgba(2, 2, 2, 0.43)" }}
       <span className="text-white">{icon}</span>
 
       {/* Label */}
-      <span className="mt-1 lg:mt-0">{label}</span>
+      <span className="mt-1 text-sm md:text-xl lg:mt-0">{label}</span>
 
       {/* Top white line */}
       <span className="absolute top-0 left-0 w-full h-[4px] bg-white scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
