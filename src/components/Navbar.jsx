@@ -44,7 +44,7 @@ style={{ backgroundColor: "rgba(2, 2, 2, 0.43)" }}
 
       >
       <div
-  className="px-6 flex flex-col items-center gap-6 overflow-auto h-auto
+  className="px-6 flex flex-col items-center gap-6 overflow-auto h-150
              lg:flex-row lg:justify-center lg:gap-20 lg:h-auto"
 >
   {navLinks.map(({ label, href, icon }) => (
